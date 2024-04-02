@@ -14,7 +14,8 @@
     "react-native-web": "~0.19.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.3"
+    "@babel/core": "^7.19.3",
+    "husky": "^6.0.0"
   },
   "scripts": {
     "start": "expo start",
@@ -22,6 +23,11 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  },  
   "version": "1.0.0",
   "private": true,
   "name": "bitcoinpriceapp"

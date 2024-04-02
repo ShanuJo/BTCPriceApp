@@ -14,7 +14,7 @@ export default function App() {
     interBold2: require('./src/fonts/InterDisplay-ExtraBold.otf'),
     interSemiBold: require('./src/fonts/Inter-SemiBold.otf'),
   });
-
+  
   if (!loaded) {
     return null;
   }
