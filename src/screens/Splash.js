@@ -10,7 +10,6 @@ const Splash = ({navigation}) => {
             
         }, 1000); 
      
-  
     
 }, []);
   return (
