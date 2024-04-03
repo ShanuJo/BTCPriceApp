@@ -25,7 +25,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "ci": "yarn install --frozen-lockfile"
+    "ci": "yarn install --frozen-lockfile",
+    "lint": "eslint src"
   },
   "husky": {
     "hooks": {
